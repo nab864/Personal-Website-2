@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(75, 79, 83);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(32, 141, 141);
+}
+
+header>nav {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  font-size: 24px;
+}
+header>nav>a {
+  text-decoration: none;
+  color: black;;
+}
+header>nav>a:hover{
+  color: blue;
+}
+
+.externallinks {
+  margin-top: 4px;
+}
+.externallinks>a>img {
+  height: 75px;
+  margin: a;
+}
