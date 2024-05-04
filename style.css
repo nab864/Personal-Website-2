@@ -1,13 +1,17 @@
 body {
-  background-color: rgb(75, 79, 83);
+  background-color: rgb(72, 61, 63);
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(32, 141, 141);
+  background-color: rgb(5, 142, 217);
+  border-radius: 25px;
 }
 
+header>h1 {
+  margin-left: 10px;
+}
 header>nav {
   margin-top: auto;
   margin-bottom: auto;
@@ -28,4 +32,26 @@ header>nav>a:hover{
 .externallinks>a>img {
   height: 75px;
   margin: a;
+}
+
+.mainsection {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mainsection>img {
+  height: 300px;
+}
+.mainsection>div {
+  background-color: rgb(244, 235, 217);
+  padding: 1em;
+  border-radius: 25px;
+}
+
+span {
+  white-space: pre;
+  font-family: monospace;
+  font-size: 24px;
 }
