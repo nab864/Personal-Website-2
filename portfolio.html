@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kai's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="code.js"></script>
 </head>
 <body>
@@ -12,11 +13,15 @@
 
     <h1>Kai Fuller</h1>
 
-    <nav class="navlinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html" style="font-weight: bold;">Portfolio</a>
-    </nav>
+    <div class="dropdown">
+      <button class="dropbtn">Portfolio
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
 
     <nav class="externallinks">
       <a href="https://www.linkedin.com/in/kai-fuller-818890149/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt=""></a>
