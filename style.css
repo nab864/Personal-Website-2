@@ -1,3 +1,4 @@
+/* Styling Across All Pages */
 body {
   background-color: rgb(72, 61, 63);
 }
@@ -42,16 +43,6 @@ img {
   margin-bottom: 1em;
 }
 
-.hobbysubsection {
-  text-align: left;
-}
-
-span {
-  white-space: pre;
-  font-family: monospace;
-  font-size: 24px;
-}
-
 .dropdown .dropbtn {
   font-size: 30px;
   font-weight: bolder;
@@ -94,4 +85,32 @@ span {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+/* Styling in About Page */
+.hobbysubsection, .school {
+  text-align: left;
+}
+.school>p {
+  margin-top: 0;
+  margin-left: 1em;
+}
+.school>h2 {
+  margin-bottom: 0;
+}
+
+/* Styling in Portfolio Page */
+.education>div, .positiondates {
+  display: flex;
+  justify-content: space-between;
+}
+.jobs {
+  text-align: left;
+}
+.positiondates>h3 {
+  margin-top: 0;
+}
+.jobs>h2 {
+  margin-bottom: 0;
 }
