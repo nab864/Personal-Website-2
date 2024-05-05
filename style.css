@@ -23,20 +23,27 @@ header>h1 {
   margin: a;
 }
 
-.mainsection {
-  margin-top: 1em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+img {
+  height: 300px;
+  margin-right: 1em;
 }
 
-.mainsection>img {
-  height: 300px;
+.mainsection {
+  text-align: center;
 }
+
 .mainsection>div {
   background-color: rgb(244, 235, 217);
   padding: 1em;
   border-radius: 25px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hobbysubsection {
+  text-align: left;
 }
 
 span {
@@ -44,9 +51,6 @@ span {
   font-family: monospace;
   font-size: 24px;
 }
-
-
-
 
 .dropdown .dropbtn {
   font-size: 30px;
