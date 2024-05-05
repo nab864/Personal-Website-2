@@ -1,25 +1,18 @@
 body {
-  background-color: rgb(75, 79, 83);
+  background-color: rgb(72, 61, 63);
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(32, 141, 141);
+  background-color: rgb(5, 142, 217);
+  border-radius: 25px;
 }
 
-header>nav {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 10px;
-  font-size: 24px;
-}
-header>nav>a {
-  text-decoration: none;
-  color: black;;
-}
-header>nav>a:hover{
-  color: blue;
+header>h1 {
+  margin-top: 30px;
+  margin-left: 10px;
+  
 }
 
 .externallinks {
@@ -28,4 +21,77 @@ header>nav>a:hover{
 .externallinks>a>img {
   height: 75px;
   margin: a;
+}
+
+img {
+  height: 300px;
+  margin-right: 1em;
+}
+
+.mainsection {
+  text-align: center;
+}
+
+.mainsection>div {
+  background-color: rgb(244, 235, 217);
+  padding: 1em;
+  border-radius: 25px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hobbysubsection {
+  text-align: left;
+}
+
+span {
+  white-space: pre;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;
+  font-weight: bolder;
+  border: none;
+  /* color: rgb(244, 235, 217); */
+  padding: 1em 20px;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(244, 235, 217);
+  min-width: 141.283px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a  background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(119, 104, 93);
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
