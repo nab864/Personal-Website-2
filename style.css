@@ -101,14 +101,14 @@ img {
 }
 
 /* Styling in Portfolio Page */
-.education>div, .positiondates {
+.education>div, .dates {
   display: flex;
   justify-content: space-between;
 }
 .jobs {
   text-align: left;
 }
-.positiondates>h3 {
+.dates>h3 {
   margin-top: 0;
 }
 .jobs>h2 {
