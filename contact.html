@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kai's Website</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="javascript.js"></script>
+  <title>Contact</title>
 </head>
 <body>
   <header>
     <h1>Kai Fuller</h1>
-
     <div class="dropdown">
       <button class="dropbtn">Home
         <i class="fa fa-caret-down"></i>
@@ -32,14 +30,27 @@
 
   <div class="mainsection">
     <div>
-      <h2>Welcome to my digital space!</h2>
-      <p>I'm Kai Fuller, and I'm thrilled to invite you into my world. <br>Here, you'll discover 
-        the essence of who I am, what drives me, and the passions that fuel<br>my journey. From my adventures in technology to 
-        my explorations in creativity, this website<br>serves as a window into my diverse interests and experiences. Join me as 
-        we embark on a<br> virtual journey together, where curiosity knows no bounds and every click unveils a new<br>facet of my 
-        story.</p>
+      <h1>Contact Me</h1>
+      <form id="form" action="success.html">
+        <label>First Name:
+          <input type="text">
+        </label>
+        <label>Last Name:
+          <input type="text">
+        </label>
+        <label>Date:
+          <input type="date">
+        </label>
+        <label>Message:
+          <textarea ></textarea>
+        </label>
+        <label>Would you like to receive future promotional offers
+          <input type="checkbox">
+        </label>
+        <input type="submit" id="submit">
+      </form>
     </div>
-    <img src="Pictures/1535664460227.jpg" alt="">
   </div>
+
 </body>
 </html>
