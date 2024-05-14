@@ -150,11 +150,13 @@ form {
   .education>div {
     display: block;
   }
-  img {
-    height: 30vh;
+  .mainsection>img {
+    all: unset;
+    width: 100vw;
   }
   img:hover {
-    height: 30vh;
+    pointer-events: none;
+    width: 100vw;
 
   }
   .externallinks {
