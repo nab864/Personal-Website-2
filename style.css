@@ -75,8 +75,24 @@ img:hover {
   display: none;
   position: absolute;
   background-color: rgb(244, 235, 217);
-  min-width: 141.283px;
+  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.home-content {
+  width: 8.8em;
+}
+
+.about-content {
+  width: 9em;
+}
+
+.portfolio-content {
+  width: 11em;
+}
+
+.contact-content {
+  width: 10.4em;
 }
 
 /* Style the links inside the dropdown */
